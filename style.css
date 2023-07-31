@@ -1,0 +1,50 @@
+.derecha {
+  position: absolute;
+  border: 2px solid darkred;
+  right: 0;
+  top: 0;
+  width: 150px;
+}
+.principal {
+  font-weight: bold;
+  color: darkblue;
+  font-size: 60px;
+  text-shadow: 2px 2px 4px lightslategray;
+  
+}
+.superform {
+  background-color: lightslategray;
+  border: 2px solid darkblue;
+  font-size: 25px;
+  padding-left: 5%;
+  text-align: left;
+}
+#presentacion {
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: darkblue;
+  margin: 20px 0;
+}
+
+form>p,label {
+  font-size: 20px;
+  color: darkred;
+}
+th {
+  color: rgb(32, 32, 129);
+  background-color: lightslategray;
+}
+h2 {
+  font-weight: bold;
+  color: darkred;
+  font-size: 30px;
+}
+a {
+  color: rgb(40, 40, 119);
+}

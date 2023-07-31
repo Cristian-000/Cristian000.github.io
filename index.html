@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Cristian Fernandez CV</title>
+    
+</head>
+
+<body>
+    <h1 class="principal">Cristian Fernandez</h1>
+    <img src="perfil00.jpg" alt="Mi imagen"  class="derecha">
+    <p id="presentacion">Me apasionan temas como: El desarrollo web, el desarrollo de software <br>
+         principalmente para celulares, la analítica web, <br>
+         la optimización web, el SEO, el emprendimiento y las startups,<br>
+         las redes sociales aplicadas a los negocios, las tecnologías web, etc.</p>
+    <!--linea divisoria horizontal-->
+    <hr>
+    <!--unordered list-->
+    <ul>
+        <!--list item-->
+        <li><a href="#habi">Habilidades y conocimientos</a></li>
+        <li><a href="#edu">Educación</a></li>
+        <li><a href="#perfiles">Perfiles sociales</a></li>
+        <li><a href="#contactar">Contactar</a></li>
+    </ul>
+
+    <!-- <h2 id="exp">Experiencia profesional</h2>
+    <table>
+        <tr>
+            <th>Empresa / Organización</th>
+            <th>Cargo</th>
+            <th>Localización</th>
+            <th>Desde-hasta</th>
+        </tr>
+        <tr>
+            <td>Esri Argentina</td>
+            <td>Encabezando el equipo de desarrolladores</td>
+            <td>Buenos Aires (Argentina)</td>
+            <td>Marzo 2014 - Actualidad</td>
+        </tr>
+        <tr>
+            <td>Upplication</td>
+            <td>Programadora Front-End</td>
+            <td>Montevideo</td>
+            <td>Noviembre 2013 - Marzo 2015</td>
+        </tr>
+        <tr>
+            <td>Universidad de la República - Ingeniería</td>
+            <td>Profesora de Programación 1</td>
+            <td>Montevideo</td>
+            <td>Noviembre 2013 - Marzo 2015</td>
+        </tr>
+        <tr>
+            <td>Google Developers Group</td>
+            <td>Coordinadora nacional</td>
+            <td>Buenos aires (Argentina)</td>
+            <td>Setiembre 2012 - Enero 2013</td>
+        </tr>
+    </table> -->
+    
+    <hr>
+    <h2 id="habi">Habilidades y conocimientos</h2>
+    <ul>
+        <li><b>Aplicaciones moviles: </b>AndroidStudio + Kotlin + JetpackCompose, Unity + C#, Design UX/UI, Version Control(GIT).</li>
+        <li><b>Desarrollo web: </b>HTML5, CSS3, Javascript, Responsive design, etc.</li>
+        <li><b>Analítica web/Métricas: </b>Google Analytics.</li>
+        
+        <li><b>Marketing: </b>E-mail marketing, redes sociales, etc</li>
+    </ul>
+    <hr>
+    <h2 id="edu">Educación</h2>
+    
+    <table>
+        <!--table row/ fila de tabla-->
+        <tr>
+            <!--table head-->
+            <th><b>Título</b></th>
+            <th><b>Entidad</b></th>
+            <th><b>Promoción</b></th>
+        </tr>
+        <tr>
+            <!--table data/ celdas-->
+            <td>Desarrollo web</td>
+            <td>Plan Ceibal(Jóvenes a programar)</td>
+            <td>En curso(2023)</td>
+        </tr>
+        <tr>
+            <td>Desarrollo de software para Android</td>
+            <td>Coursera.org</td>
+            <td>En curso(2023)</td>
+        </tr>
+        <tr>
+            <td>Curso: Version Control</td>
+            <td>Coursera.org</td>
+            <td>12/2022</td>
+        </tr>
+        <tr>
+            <td>Curso: HTML y CSS</td>
+            <td>Fundación Telfónica</td>
+            <td>11/2022</td>
+        </tr>
+        <tr>
+            <td>Curso: Marketing Digital</td>
+            <td>Fundación Telefónica</td>
+            <td>10/2022</td>
+        </tr>
+    </table>
+    <hr>
+    <h2 id="perfiles">Perfiles sociales</h2>
+    <p>Tambien puedes encontrarme en:</p>
+    <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Github</a></li>
+        <li><a href="#">Twiter</a></li>
+        <li><a href="#">Linkedin</a></li>
+    </ul>
+    
+    <form action="form" method="get" class="superform">
+        <h2 id="contactar">Contactar</h2>
+        <p>Para: <input type="text" name="para"></p>
+        <p>Temática:
+            <!--combobox-->
+            <select id="tema" name="tema">
+                <option selected disabled>-- Elige un tema --</option>
+                <option value="1">Consulta</option>
+                <option value="2">Propuesta</option>
+                <option value="3">Reporte</option>
+                <option value="4">Otro</option>
+            </select></p>
+
+        <label for="asunto">Asunto:</label>
+        <input type="text" name="asunto" id="asunto" >
+
+        <p>Cuerpo: <textarea class="padd" name="cuerpo"></textarea></p>
+        
+
+        <!--<button> mucho mas personalizable que input
+          <p><button name="Enviar" value="boton"></p> -->
+        
+        <p><input type="submit" value="Enviar"></p>
+
+    </form>
+
+    <!--<label> en lugar de <p> para formularios-->
+<!--metodo get del formulario lo manda en la query url-->
+<!--radio butons en el mismo grupo = mismo name-->
+</body>
+
+</html>
